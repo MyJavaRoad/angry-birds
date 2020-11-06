@@ -7,18 +7,18 @@ import java.util.Random;
 
 import javax.imageio.ImageIO;
 /**
- * x, y 是空隙中间位置. 
+ * x, y 锟角匡拷隙锟叫硷拷位锟斤拷. 
  */
 public class Column {
 	BufferedImage image;
-	//以柱子的中间作为柱子的位置
+	//锟斤拷锟斤拷锟接碉拷锟叫硷拷锟斤拷为锟斤拷锟接碉拷位锟斤拷
 	int x;
 	int y; // 140 ~ 280
 	int width;
 	int height;
 	int gap = 109;
 	Random r = new Random();
-	
+	//
 	public Column(int x) throws IOException { 
 		image = ImageIO.read(getClass().getResource("column.png"));
 		width = image.getWidth();
